@@ -1,0 +1,112 @@
+/* Define o estilo geral da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Estiliza o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Estiliza o título do cabeçalho */
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* Estiliza a navegação */
+nav {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Estiliza a lista de navegação */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza os itens da lista de navegação */
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* Estiliza os links na lista de navegação */
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estiliza o conteúdo principal */
+main {
+  padding: 20px;
+}
+
+/* Estiliza as seções do conteúdo principal */
+section {
+  margin-bottom: 40px;
+}
+
+/* Estiliza os títulos das seções */
+section h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estiliza a lista de serviços */
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estiliza o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+/*______________________________________*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+section {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  text-align: center;
+}
