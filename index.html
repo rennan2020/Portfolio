@@ -1,56 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-jGTrZp9POVKbOod7J2Qj+Kj8sgR+YsLsByg1yvDYGJGzLB6+27rV3mTmTn8VJW9UB39XAK/2+31vrNl8cDBng==" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="estilo.css">
-  <title>Minha Interface Simples</title>
+  <title>Rennan R. Peinado</title>
 </head>
 <body>
   <header>
-    <h1>Minha Interface Simples</h1>
+    <div class="header-image-conteiner">
+      <img src="imagens/Capa.png">
+      <img src="imagens/Rennan-Dulino.jfif">
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Serviços</a></li>
-      <li><a href="#about">Sobre</a></li>
-      <li><a href="#contact">Contato</a></li>
-    </ul>
-  </nav>
+<nav>
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button type="button" class="navbar-toggle">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <ul class="navbar-menu">
+    <li><a href="#">Minha história</a></li>
+    <li><a href="#">Robótica</a></li>
+    <li><a href="#">DEV</a></li>
+    <li><a href="#">Maker</a></li>
+  </ul>
+</nav>
 
   <main>
     <section id="home">
-      <h2>Bem-vindo à Minha Interface Simples</h2>
-      <p>Este é um exemplo de uma interface simples criada com HTML.</p>
+      <h2>Bem-vindo ao meu portfolio</h2>
+      <p>Este é o meu portfolio, com o foco em todos os projetos que já foram feitos por mim independente da minha área de conhecimento. Analisando que tenho multitarefas, e não consigo colocar todas em um currículo simplificado, vi a necessidade de fazer um site próprio para deixar meu trabalho mais exposto! Aproveitando e mostrando a minha evolução e curiosidade sobre o ramo de programação. </p>
     </section>
 
     <section id="services">
-      <h2>Nossos Serviços</h2>
+      <h2>Áreas de conhecimento</h2>
       <ul>
-        <li>Desenvolvimento de software</li>
-        <li>Design de interface</li>
-        <li>Consultoria em tecnologia</li>
+        <li>Produção de projetos</li>
+        <li>Programação</li>
+        <li>Competição de robótica</li>
+        <li>Livros</li>
       </ul>
     </section>
 
     <section id="about">
-      <h2>Sobre Nós</h2>
-      <p>Nós somos uma equipe de desenvolvedores experientes e apaixonados por tecnologia.</p>
+      <h2>Acadêmico</h2>
+      <p>Destinado a deixar toda a minha evoluçao acadêmica, certificados, cursos, diplomas e pretenções futuras</p>
     </section>
     <section id="contact">
-      <h2>Entre em Contato Conosco</h2>
+      <h2>Entre em contato comigo</h2>
       <form action="">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="name">
-
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email">
-
-        <label for="message">Mensagem:</label>
-        <textarea id="message" name="message"></textarea>
-
-        <input type="submit" value="Enviar">
-        <p>Para entrar em contato, envie um email para <a href="mailto:rennanreis2012@gmail.com">rennanreis2012@gmail.com</a>.</p>
+        <p>Para entrar em contato, envie um email para <a href="mailto:rennanreis2012@gmail.com">rennanreis2012@gmail.com</a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://web.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </p>
       </form>
     </section>
   </main>
@@ -58,5 +65,6 @@
   <footer>
     <p>Todos os direitos reservados © Minha Interface Simples 2023</p>
   </footer>
+  <script src="JavaScrip.js"></script>
 </body>
 </html>
