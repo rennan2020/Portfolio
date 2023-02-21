@@ -3,7 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: white;
   color: #444;
 }
 
@@ -26,7 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: black;
   color: white;
   padding: 10px;
 }
@@ -53,11 +53,14 @@ nav {
 }
 
 .navbar-menu li {
+  position: relative;
+  display: block;
+  transition: .5s;
   margin-right: 20px;
 }
 
 .navbar-menu a {
-  color: white;
+  color: ghostwhite;
   text-decoration: none;
 }
 
@@ -100,9 +103,13 @@ section {
 
 /* Estiliza os títulos das seções */
 section h2 {
-  font-size: 28px;
-  color: #333;
-  margin-bottom: 10px;
+  font-size: 35px;
+  background: linear-gradient(90deg, #4776e6 0%,
+                              #e954e2 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 5px;
+
 }
 
 /* Estiliza a lista de serviços */
