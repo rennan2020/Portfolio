@@ -32,6 +32,9 @@ nav {
 }
 
 .navbar-header {
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: auto;
   display: flex;
   align-items: center;
 }
@@ -46,8 +49,14 @@ nav {
 }
 
 .navbar-menu {
+
   display: flex;
   list-style: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+  text-transform: uppercase;
+  pointer-events: auto;
   margin: 0;
   padding: 0;
 }

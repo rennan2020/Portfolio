@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  background-color: rgb(87, 76, 76);
+  color: white;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+main header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem 10rem 5rem 10rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+main header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+}
+
+main header a {
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+}
+
+.lista__item p {
+  position: absolute;
+  font-size: 2rem;
+  line-height: 1;
+  bottom: 15rem;
+  padding: 0 10rem;
+  width: 80vw;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.lista__item {
+  position: relative;
+  background-color: black;
+}
+
+.lista__item__picture img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+  object-fit: cover;
+}
+
+.lista__item__label {
+  display: block;
+  position: absolute;
+  left: 10rem;
+  bottom: 10rem;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+/* device na vertical */
+@media screen and (max-width: 750px) and (orientation: portrait) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+
+  main header {
+    padding: 10rem 5rem 15rem 5rem;
+  }
+
+  main header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  main header p {
+    position: absolute;
+    bottom: 20rem;
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  main header a {
+    display: block;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    pointer-events: auto;
+    margin-top: 100rem;
+  }
+
+  .lista__item p {
+    font-size: 4rem;
+    line-height: 1.2;
+    bottom: 15rem;
+    width: 100vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+    padding: 10rem 5rem 0rem 5rem;
+  }
+}
