@@ -52,7 +52,7 @@ main header a {
   line-height: 1;
   bottom: 15rem;
   padding: 0 10rem;
-  width: 80vw;
+  width: 63vw;
   text-transform: uppercase;
   opacity: 0.7;
 }
@@ -70,14 +70,78 @@ main header a {
   object-fit: cover;
 }
 
-.lista__item__label {
-  display: block;
+/* Parte de edição dos textos nas imagens */
+
+.lista__item__label_01 {
   position: absolute;
-  left: 10rem;
+  left: 1rem;
+  text-align: justify;
+  bottom: 50rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 70%;
+  max-width: 50rem;
+}
+
+.lista__item__label_01 p{
+  position: absolute;
+  left: 48rem;
+  text-align: justify;
+  bottom: -43rem;
+  font-weight: 50;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 200%;
+  max-width: 80rem;
+}
+
+.lista__item__label_02 {
+  position: absolute;
+  left: 1rem;
+  text-align: justify;
+  bottom: 20rem;
+  font-weight: 70;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 70%;
+  max-width: 50rem;
+}
+
+.lista__item__label_03 {
+  position: absolute;
+  left: 1rem;
+  text-align: justify;
+  bottom: 15rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width: 500%;
+  max-width: 100rem;
+}
+
+.lista__item__label_03 p {
+  position: absolute;
+  left: 1rem;
+  text-align: justify;
+  justify-content: center;
+  bottom: -50rem;
+  font-weight: 70;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  width:500%;
+  max-width: 150rem;
+}
+
+.lista__item__label_04 {
+  position: absolute;
+  left: 1rem;
   bottom: 10rem;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
+  width: 90%;
+  max-width: 115rem;
 }
 
 /* device na vertical */
@@ -122,3 +186,4 @@ main header a {
     padding: 10rem 5rem 0rem 5rem;
   }
 }
+s
