@@ -102,7 +102,7 @@ nav {
 }
 /* Estiliza o conteúdo principal */
 main {
-  padding: 20px;
+  padding-bottom: 20px;
 }
 
 /* Estiliza as seções do conteúdo principal */
@@ -112,7 +112,7 @@ section {
 
 /* Estiliza os títulos das seções */
 section h2 {
-  font-size: 35px;
+  font-size: 25px;
   background: linear-gradient(90deg, #4776e6 0%,
                               #e954e2 55%);
   -webkit-background-clip: text;
@@ -167,4 +167,30 @@ form {
 
 footer {
   text-align: center;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+.carousel-item.next {
+  left: 100%;
+}
+
+.carousel-item.prev {
+  left: -100%;
 }

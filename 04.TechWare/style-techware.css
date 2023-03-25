@@ -48,12 +48,13 @@ main header a {
 
 .lista__item p {
   position: absolute;
+  text-align: justify;
+  font-family: Verdana;
   font-size: 2rem;
   line-height: 1;
   bottom: 15rem;
   padding: 0 10rem;
   width: 63vw;
-  text-transform: uppercase;
   opacity: 0.7;
 }
 
@@ -74,72 +75,52 @@ main header a {
 
 .lista__item__label_01 {
   position: absolute;
-  left: 1rem;
+  top: 200px;
+  left: 100px;
   text-align: justify;
+  font-family: Verdana;
   bottom: 50rem;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2rem;
   width: 70%;
   max-width: 50rem;
-}
-
-.lista__item__label_01 p{
-  position: absolute;
-  left: 48rem;
-  text-align: justify;
-  bottom: -43rem;
-  font-weight: 50;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  width: 200%;
-  max-width: 80rem;
 }
 
 .lista__item__label_02 {
   position: absolute;
-  left: 1rem;
+  top: 460px;
+  left: 210px;
+  font-family: Verdana;
   text-align: justify;
   bottom: 20rem;
   font-weight: 70;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  width: 70%;
-  max-width: 50rem;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 100rem;
 }
 
 .lista__item__label_03 {
   position: absolute;
-  left: 1rem;
+  top: 350px;
+  left: 200px;
+  font-family: Verdana;
   text-align: justify;
   bottom: 15rem;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 2rem;
   width: 500%;
-  max-width: 100rem;
-}
-
-.lista__item__label_03 p {
-  position: absolute;
-  left: 1rem;
-  text-align: justify;
-  justify-content: center;
-  bottom: -50rem;
-  font-weight: 70;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  width:500%;
-  max-width: 150rem;
+  max-width: 90rem;
 }
 
 .lista__item__label_04 {
   position: absolute;
-  left: 1rem;
+  top: 500px;
+  left: 140px;
   bottom: 10rem;
-  font-weight: 700;
-  font-size: 1.5rem;
-  text-transform: uppercase;
+  text-align: justify;
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 2rem;
   width: 90%;
   max-width: 115rem;
 }

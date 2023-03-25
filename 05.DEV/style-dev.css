@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+  background-color: rgb(87, 76, 76);
+  color: white;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+main header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  padding: 5rem 10rem 5rem 10rem;
+  pointer-events: none;
+  z-index: 1;
+}
+
+main header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+}
+
+main header a {
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  pointer-events: auto;
+}
+
+.lista__item p {
+  position: absolute;
+  text-align: justify;
+  font-family: Verdana;
+  font-size: 2rem;
+  line-height: 1;
+  bottom: 15rem;
+  padding: 0 10rem;
+  width: 63vw;
+  opacity: 0.7;
+}
+
+.lista__item {
+  position: relative;
+  background-color: black;
+}
+
+.lista__item__picture img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+  object-fit: cover;
+}
+
+/* Parte de edição dos textos nas imagens */
+
+.lista__item__label_01 {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  text-align: justify;
+  font-family: Verdana;
+  bottom: 50rem;
+  font-weight: normal;
+  font-size: 2rem;
+  width: 70%;
+  max-width: 50rem;
+}
+
+.lista__item__label_02 {
+  position: absolute;
+  top: 460px;
+  left: 210px;
+  font-family: Verdana;
+  text-align: justify;
+  bottom: 20rem;
+  font-weight: 70;
+  font-size: 2rem;
+  width: 100%;
+  max-width: 100rem;
+}
+
+.lista__item__label_03 {
+  position: absolute;
+  top: 350px;
+  left: 200px;
+  font-family: Verdana;
+  text-align: justify;
+  bottom: 15rem;
+  font-weight: normal;
+  font-size: 2rem;
+  width: 500%;
+  max-width: 90rem;
+}
+
+.lista__item__label_04 {
+  position: absolute;
+  top: 500px;
+  left: 140px;
+  bottom: 10rem;
+  text-align: justify;
+  font-family: verdana;
+  font-weight: normal;
+  font-size: 2rem;
+  width: 90%;
+  max-width: 115rem;
+}
+
+/* device na vertical */
+@media screen and (max-width: 750px) and (orientation: portrait) {
+  html {
+    font-size: calc(100vw / 768 * 10);
+  }
+
+  main header {
+    padding: 10rem 5rem 15rem 5rem;
+  }
+
+  main header h1 {
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  main header p {
+    position: absolute;
+    bottom: 20rem;
+    font-size: 4rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  main header a {
+    display: block;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    pointer-events: auto;
+    margin-top: 100rem;
+  }
+
+  .lista__item p {
+    font-size: 4rem;
+    line-height: 1.2;
+    bottom: 15rem;
+    width: 100vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+    padding: 10rem 5rem 0rem 5rem;
+  }
+}
+s
