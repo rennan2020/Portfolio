@@ -168,29 +168,3 @@ form {
 footer {
   text-align: center;
 }
-
-.carousel {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-item {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-
-.carousel-item.active {
-  opacity: 1;
-}
-
-.carousel-item.next {
-  left: 100%;
-}
-
-.carousel-item.prev {
-  left: -100%;
-}
