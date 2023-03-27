@@ -26,7 +26,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
+  background-color: white;
   color: white;
   padding: 10px;
 }
@@ -49,7 +49,8 @@ nav {
 }
 
 .navbar-menu {
-
+  transition: all .5s ease-in-out;
+  position: relative;
   display: flex;
   list-style: none;
   font-size: 1rem;
@@ -68,11 +69,19 @@ nav {
   margin-right: 20px;
 }
 
-.navbar-menu a {
-  color: ghostwhite;
+.navbar-menu a::before{
+  content: attr(data-item);
+  transition: .5s;
+  color: #fff;
+  position: absolute;
+  overflow: hidden;
   text-decoration: none;
 }
 
+.navbar-menu a:hover::before{
+  width: 100%;
+  transition: all .5s ease-in-out;
+}
 /* Responsive styles */
 @media (max-width: 768px) {
   .navbar-toggle {
@@ -120,7 +129,9 @@ section h2 {
   margin-bottom: 5px;
 
 }
-
+section h3{
+  margin: 3%;
+}
 /* Estiliza a lista de serviços */
 section ul {
   list-style-type: none;
