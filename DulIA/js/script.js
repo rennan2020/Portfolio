@@ -1,3 +1,14 @@
+const axios = require('axios');
+
+var chat = document.getElementById("chat");
+
+chat.addEventListener("click", function(event){
+    event.preventDefault();
+    var userInput = document.getElementById("prompt-box").value;
+    console.log("Usuário digitou: " + userInput);
+    
+});
+
 /* Parte em que quando clicar na barra lateral as informações vão surgir, a primeira parte é da responsivdade
 já a segunda é responsável pela página de valores */
 let navbar = document.querySelector('.navbar');
