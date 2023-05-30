@@ -1,5 +1,4 @@
-const axios = require('axios');
-
+const { Configuration, OpenAIApi } = require("openai")
 const chat = document.getElementById(".btn");
 
 chat.addEventListener("click", function(event){
@@ -14,6 +13,8 @@ const prompt = 'userInput'; // Pergunta ou mensagem do usuário
 
 axios.post(API_URL, {
   model: 'gpt-3.5-turbo', // Nome do modelo do ChatGPT
+  max_tokens: 1000,
+  temperature: 0,
   messages: [{ role: 'system', content: 'Você é um assistente virtual da empresa Dulino, ela trabalha com educação tecnologica com crianças de 6 à 18 anos de idade.' }, { role: 'user', content: prompt }]
 }, {
   headers: {
@@ -29,6 +30,37 @@ axios.post(API_URL, {
 .catch(error => {
   console.error('Erro:', error);
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Parte em que quando clicar na barra lateral as informações vão surgir, a primeira parte é da responsivdade
 já a segunda é responsável pela página de valores */
