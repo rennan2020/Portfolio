@@ -10,14 +10,14 @@ chat.addEventListener("click", function(event){
 
 const API_URL = 'https://api.openai.com/v1/chat/completions'; // URL da API do ChatGPT
 
-const prompt = 'o que você é?'; // Pergunta ou mensagem do usuário
+const prompt = 'userInput'; // Pergunta ou mensagem do usuário
 
 axios.post(API_URL, {
   model: 'gpt-3.5-turbo', // Nome do modelo do ChatGPT
   messages: [{ role: 'system', content: 'Você é um assistente virtual da empresa Dulino, ela trabalha com educação tecnologica com crianças de 6 à 18 anos de idade.' }, { role: 'user', content: prompt }]
 }, {
   headers: {
-    'Authorization': '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', // Substitua YOUR_API_KEY pela sua chave de API do OpenAI
+    'Authorization': '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', 
     'Content-Type': 'application/json'
   }
 })
