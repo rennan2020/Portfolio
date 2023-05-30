@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Comaptible" content="IE=edge">
         <meta name=""viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <title>DulIA</title>
 
         <!-- link das fontes usadas -->
@@ -53,11 +54,14 @@
         </p>
         <a href="#" class="btn">Fale conosco</a>
     </div>
+
+    <div id="resposta"></div>
+    
      <!--Prompt de comando-->
      <div class="prompt-form">
-        <input type="text" id="prompt-box" placeholder="Pergunte para a nossa IA">
+        <input id="prompt-box" placeholder="Pergunte para a nossa IA">
         <label for="prompt-box" class="fas fa-prompt"></label>
-        <button id="chat">Pergunte</button>
+        <a href="#" class="btn" id="chat">Pergunte</a>
     </div>
 
     <!--Prompt de comando-->
